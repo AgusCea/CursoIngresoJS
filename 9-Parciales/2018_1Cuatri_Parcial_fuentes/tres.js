@@ -1,8 +1,10 @@
 function mostrar()
 {
-  var precio;
-  var descuento;
+  var valorPrecio;
+  var valorDescuento;
   var precioFinal;
-  precio = parseInt(prompt("Escribir el precio"));
-  descuento = parseInt(prompt("Escribir el valor de descuento"));
+  valorPrecio = parseInt(prompt("Escribir el precio"));
+  valorDescuento = parseInt(prompt("Escribir el valor de descuento"));
+  precioFinal = valorPrecio-((valorPrecio/100)*valorDescuento);
+  alert(precioFinal)
 }
