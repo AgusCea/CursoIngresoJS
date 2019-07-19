@@ -16,3 +16,23 @@ function mostrar()
 
 
 }//FIN DE LA FUNCIÓN
+
+/*
+var numero;
+var maximo;
+var minimo;
+var primeraVez=true;
+
+
+while(prompt("ejhvfie")){
+do{
+numero=prompt("jhfue");
+numero=parseInt(numero);
+}while(isNan(numero);
+if(primeraVez){
+primeraVez=false;
+maximo=numero;
+minimo=numero;
+}else{}
+}
+*/
