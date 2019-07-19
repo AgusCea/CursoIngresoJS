@@ -1,10 +1,8 @@
 function mostrar()
 {
-  var contador=0;
-  do{
+  var contador;
+  for(contador=0;contador<10;contador++){
     console.log(contador);
-    contador=contador+1
-  }while(contador<10){
   }
 
 
