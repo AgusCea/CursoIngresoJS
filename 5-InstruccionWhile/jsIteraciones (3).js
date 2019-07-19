@@ -12,7 +12,3 @@ function mostrar()
     }
   }while(clave!="utn750");
 }
-
-/*
-
-*/
