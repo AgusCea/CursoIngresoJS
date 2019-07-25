@@ -1,40 +1,21 @@
 function mostrar()
 {
-
-	var contador=0;
+  var contador=0;
 	var acumulador=0;
-  var respuesta='si';
+  var respuesta=true; //La respuesta es true hasta que se ingrese lo contrario en el confirm
   var numero;
 
-  while(true){
+  while(respuesta){
     do{
       numero=prompt("Escriba un numero");
-      if(numero==null){
-        break;
-      }
       numero=parseInt(numero);
     }while(isNaN(numero));
-    if(numero==null){
-      break;
-    }
+    contador++;
+    acumulador=acumulador+numero;
+    respuesta=confirm("¿Desea continuar?");
   }
 
   document.getElementById('suma').value=acumulador;
   document.getElementById('promedio').value=acumulador/contador;
 
 }
-
-/*
- while(true){
-    do{
-      numero=prompt("Escriba un numero");
-      if(numero==null){
-        break;
-      }
-      numero=parseInt(numero);
-    }while(isNaN(numero));
-    if(numero==null){
-      break;
-    }
-  }
-*/
