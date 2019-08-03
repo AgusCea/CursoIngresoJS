@@ -1,7 +1,7 @@
 function mostrar()
 {
-  var planeta;
-  prompt=("Ingresar un planeta de nuestro sistema solar");
+  var planeta=prompt("Ingresar un planeta de nuestro sistema solar");
+  
   switch(planeta){
     case"Mercurio":
     case"Venus":alert("Acá hace más calor").break;
